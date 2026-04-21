@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" pages="2">
+  <diagram name="Trang-1" id="xsTZJtcdw7HAYJo-U2Zk">
+    <mxGraphModel dx="1818" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MfJZCG8S45glCYOOxJjd-14" parent="1" style="html=1;whiteSpace=wrap;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Object" vertex="1">
+          <mxGeometry height="520" width="580" x="-20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-13" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="MfJZCG8S45glCYOOxJjd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BOOKS" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="AUTHORS" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-11" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Tiểu sử" vertex="1">
+          <mxGeometry height="80" width="120" x="414" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-10" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Năm sinh" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-6" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" target="MfJZCG8S45glCYOOxJjd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Tên" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BOOKS" vertex="1">
+          <mxGeometry height="60" width="120" x="735" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AUTHORS" vertex="1">
+          <mxGeometry height="60" width="120" x="990" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-21" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" target="MfJZCG8S45glCYOOxJjd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="book_id (PK)" vertex="1">
+          <mxGeometry height="60" width="90" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-26" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" target="MfJZCG8S45glCYOOxJjd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="authors_id (PK)" vertex="1">
+          <mxGeometry height="60" width="90" x="970" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-22" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" target="MfJZCG8S45glCYOOxJjd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="title" vertex="1">
+          <mxGeometry height="60" width="90" x="790" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-27" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="birthday_year" vertex="1">
+          <mxGeometry height="60" width="90" x="1110" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-28" edge="1" parent="1" source="MfJZCG8S45glCYOOxJjd-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" target="MfJZCG8S45glCYOOxJjd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfJZCG8S45glCYOOxJjd-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="biography" vertex="1">
+          <mxGeometry height="60" width="90" x="1180" y="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CuSqwhIC-CLFisDvECgo" name="Trang-2">
+    <mxGraphModel dx="941" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
