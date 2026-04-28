@@ -91,6 +91,5 @@ where phone is null;
 select * from Product
 where price between 10000000 and 20000000;
 
-select p.name from Product p
-join Order_Detail od on p.product_id = od.product_id
-where od.order_id = 'DH001';
+select * from Orders
+where order_id = "DH001";
