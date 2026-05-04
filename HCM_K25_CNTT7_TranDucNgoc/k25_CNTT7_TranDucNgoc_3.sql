@@ -33,6 +33,7 @@ create table Order_Detail(
 );
 
 
+
 drop table Orders;
 drop table Order_Detail;
 
@@ -49,5 +50,3 @@ insert into Customer (name, email, phoneNumber, address) values
 ('Tran Nguyen D', 'c@gmail.com', '0123456799', 'Tay Ninh'),
 ('Tran Luong E', 'e@gmail.com', '0123456787', 'Da Lat'),
 ('Tran Ta F', 'f@gmail.com', '0123456785', 'Phu Tho');
-
-insert into Orders ()
