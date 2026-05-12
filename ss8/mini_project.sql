@@ -1,8 +1,8 @@
-CREATE DATABASE Shop_DB;
+CREATE DATABASE IF NOT EXISTS sales_management;
 
-USE Shop_DB;
+USE sales_management;
 
-CREATE TABLE Customer (
+CREATE TABLE IF NOT EXISTS  Customer (
     Customer_id INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(100) NOT NULL,
     Email VARCHAR(100) NOT NULL UNIQUE,
@@ -12,12 +12,12 @@ CREATE TABLE Customer (
     Customer_type VARCHAR(20)
 );
 
-CREATE TABLE Category (
+CREATE TABLE IF NOT EXISTS  Category (
     Category_id INT PRIMARY KEY,
     Category_name VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE Product (
+CREATE TABLE IF NOT EXISTS  Product (
     Product_id INT PRIMARY KEY,
     Product_name VARCHAR(100) NOT NULL,
     Price DECIMAL(10,2) NOT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE Product (
     FOREIGN KEY (Category_id) REFERENCES Category(Category_id)
 );
 
-CREATE TABLE Orders (
+CREATE TABLE IF NOT EXISTS  Orders (
     Order_id INT PRIMARY KEY,
     Order_date DATE NOT NULL,
     Customer_id INT,
@@ -34,7 +34,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (Customer_id) REFERENCES Customer(Customer_id)
 );
 
-CREATE TABLE Order_Detail (
+CREATE TABLE IF NOT EXISTS  Order_Detail (
     Order_detail_id INT PRIMARY KEY,
     Order_id INT,
     Product_id INT,
