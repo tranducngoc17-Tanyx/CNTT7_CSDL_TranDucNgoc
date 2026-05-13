@@ -168,3 +168,42 @@ INSERT INTO Wallets (patient_id, balance, status) VALUES
 (3, 1000000.00, 'Inactive'); -- Test Case 2: Nhiều tiền nhưng thẻ bị khóa
 
 
+
+
+-- Đoạn mã nguồn hiện tại đang chạy trên Database
+DELIMITER //
+
+CREATE PROCEDURE CancelAppointment(IN p_appointment_id INT)
+BEGIN
+-- Cập nhật trạng thái lịch khám thành "Đã hủy"
+UPDATE Appointments
+SET status = 'Cancelled'
+WHERE appointment_id = p_appointment_id;
+END //
+
+DELIMITER ;
+
+select * from Appointments;
+
+-- Phần A
+call CancelAppointment(1);
+-- lênh này hiện đang không kiểm tra điêu kiện nào cả, bất cứ id nào nó 
+-- cũng chạy hết kể cả id không tòn tại hoặc những id có trạng thái không phải pating
+
+-- Viết mã lệnh SQL để xóa (DROP) thủ tục CancelAppointment cũ đang bị lỗi.
+drop PROCEDURE CancelAppointment;
+
+-- Viết lại mã lệnh tạo mới (CREATE) thủ tục CancelAppointment đã được sửa logic. 
+DELIMITER //
+
+CREATE PROCEDURE CancelAppointment(IN p_appointment_id INT)
+BEGIN
+-- Cập nhật trạng thái lịch khám thành "Đã hủy"
+UPDATE Appointments
+SET status = 'Cancelled'
+WHERE appointment_id = p_appointment_id  and 
+	status ='Pending';
+END //
+
+DELIMITER ;
+call CancelAppointment(105);
