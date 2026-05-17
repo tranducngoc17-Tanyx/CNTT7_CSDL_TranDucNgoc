@@ -29,6 +29,7 @@ CREATE TABLE Enrollment (
     StudentID VARCHAR(6),
     CourseID VARCHAR(6),
     Score DECIMAL(4,2), 
+    
     PRIMARY KEY (StudentID, CourseID),
     FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
     FOREIGN KEY (CourseID) REFERENCES Course(CourseID)
@@ -51,9 +52,7 @@ INSERT INTO Student VALUES
 ('S00008','Tran Phuc','Male','2003-09-09','IT');
 
 INSERT INTO Course VALUES
-('C00001', 'Database Systems', 0123456789),
-('C00002', 'Database', 0234567890),
-('C00003', 'Systems', 0345678901);
+('C00001', 'Database Systems', 0123456789);
 
 -- Cau1
 CREATE VIEW ViewStudentBasic AS
